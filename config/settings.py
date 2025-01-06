@@ -136,3 +136,9 @@ AUTH_USER_MODEL = 'user_account.User'
 SESSION_COOKIE_ARE = 86400
 CART_ID = 'cart'
 COUPON_ID = 'coupon'
+
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+    'user_account.backends.EmailAuthenticationBackend',
+)
