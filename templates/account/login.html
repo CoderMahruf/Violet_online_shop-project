@@ -38,7 +38,14 @@
                             <div class="col-lg-12 py-2">
                                 <input name="password" type="text" placeholder="Enter password">
                                 {{form.password.errors}}
-                            </div>                     
+                            </div>   
+                            <div class="col-lg-12 my-2 text-right">
+                                <p>
+                                    <strong class="ml-2">
+                                        <a class="text-decoration-none text-dark" href="{% url 'password_reset' %}">Forgot Password</a> 
+                                    </strong>
+                                </p>
+                            </div>                  
                             <div class="col-lg-12 text-right">
                                 <button class="btn-block" type="submit">Login</button>
                             </div>
