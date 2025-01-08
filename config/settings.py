@@ -151,3 +151,7 @@ EMAIL_HOST = "smtp.gmail.com"
 EMAIL_HOST_USER = "mahruf9060@gmail.com"
 EMAIL_HOST_PASSWORD = "duqq xtki egyo dpfg"
 EMAIL_PORT = 587
+
+# PayPal Credentials
+PAYPAL_CLIENT_ID = 'Acevy86AB9_lvsKG8EqGVJABlmPUDcUpwxS1-3kFcHwLB4symg1Yz9Ic6-RI-MBxHKt-Y-PG0E_NJaTI'
+PAYPAL_SECRET_ID = 'EOfEtYw6fdw5MeIjZwjoq_eQMdrZ2qvyjwA53i0gAVs65V_OvIYNqXAyrHklapwoSDnILmvhCA56w2OD'
