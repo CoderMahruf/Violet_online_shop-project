@@ -17,6 +17,10 @@ class OrderItem(models.Model):
     def __str__(self) -> str:
         return f"{self.product.title} x {self.quantity}"
 
+    @property
+    def total(self):
+        return self.price * self.quantity 
+
 class Order(models.Model):
     STATUS = ('Recieved', 'On The Way', 'Delivered')
 
