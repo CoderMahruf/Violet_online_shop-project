@@ -60,13 +60,13 @@ The **Violet Online Store** is an e-commerce web application developed using the
 
 2. Create a virtual environment (optional):
    ```bash
-   python -m venv venv
+   python -m venv env
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install pillow,django
    ```
 
 4. Run database migrations:
