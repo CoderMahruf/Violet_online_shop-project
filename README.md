@@ -96,7 +96,17 @@ The **Violet Online Store** is an e-commerce web application developed using the
 4. Proceed to the checkout page and select a payment option to complete your purchase.
 
 ---
+## Screenshots
 
+![Main Page](screenshots/1.png)
+![Main Page](screenshots/2.png)
+![Main Page](screenshots/3.png)
+![Main Page](screenshots/4.png)
+![Main Page](screenshots/5.png)
+![Main Page](screenshots/6.png)
+![Main Page](screenshots/7.png)
+
+---
 ## Project Structure
 
 ```
