@@ -23,14 +23,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-13appnn#4*(32)03_!rgr=#3q#bi^rs(vx=e-g0*r)7o7*jxzi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','127.0.0.1','.now.sh']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -123,7 +124,7 @@ USE_TZ = True
 
 MEDIA_URL = 'media/'
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build','static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build')
 STATIC_DIRS = [os.path.join(BASE_DIR, 'static')]
 MEDIA_ROOT = BASE_DIR / 'media'
 
