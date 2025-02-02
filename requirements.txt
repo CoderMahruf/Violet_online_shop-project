@@ -77,7 +77,7 @@ pyttsx3==2.90
 pytweening==1.2.0
 pytz==2024.1
 pywhatkit==5.4
-# pywin32==306
+pywin32==306
 regex==2024.7.24
 requests==2.32.3
 service-identity==24.2.0
@@ -96,6 +96,7 @@ typing_extensions==4.12.2
 tzdata==2024.1
 urllib3==2.2.3
 Werkzeug==3.0.3
+whitenoise==6.8.2
 wikipedia==1.4.0
 yarl==1.17.2
 zope.interface==7.2
